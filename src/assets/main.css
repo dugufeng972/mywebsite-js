@@ -1,0 +1,84 @@
+/* @import './base.css'; */
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+input,
+textarea {
+  outline: none;
+  padding: 0;
+}
+button {
+  border: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+i {
+  font-style: normal;
+}
+
+table {
+  border-collapse: collapse; /* 合并边框，去掉单元格之间的间隙 */
+  border-spacing: 0; /* 去掉额外的单元格间距 */
+}
+td,
+th {
+  padding: 0; /* 去掉单元格内部的内边距 */
+}
+/* #app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-weight: normal;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+  padding: 3px;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    place-items: center;
+  }
+
+  #app {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 2rem;
+  }
+} */
